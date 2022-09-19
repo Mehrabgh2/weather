@@ -31,7 +31,9 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        backgroundColor: const Color(0xFF010A19), body: WeatherScreen());
+    return const Scaffold(
+      backgroundColor: Color(0xFF010A19),
+      body: WeatherScreen(),
+    );
   }
 }

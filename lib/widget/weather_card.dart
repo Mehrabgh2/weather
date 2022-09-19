@@ -8,6 +8,8 @@ import 'package:weather/widget/info_card.dart';
 import 'dart:math' as math;
 
 class WeatherCard extends HookWidget {
+  const WeatherCard({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     AnimationController _refreshAnimationController =

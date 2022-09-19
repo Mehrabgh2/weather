@@ -20,7 +20,7 @@ class InfoCard extends StatelessWidget {
     final _devSize = MediaQuery.of(context).size;
     return Column(
       children: [
-        Container(
+        SizedBox(
           height: _devSize.width * .0575,
           width: _devSize.width * .0575,
           child: FittedBox(
